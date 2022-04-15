@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog Report"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="spinner_onclick"
+        android:text="Progress Dialog(Spinner)"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="horizontal_onclick"
+        android:text="Progress Dialog(Horizontal Bar)"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="custom_onclick"
+        android:text="Custom Dialog"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
